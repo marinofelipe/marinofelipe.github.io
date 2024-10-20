@@ -6,6 +6,10 @@ author_profile: true
 header:
   image: /assets/banners/berlin_s_bahn.png
 ---
+
+# Acknowledgements: 
+# - The GitHub projects included are heavily inpired by the work of https://github.com/liyasthomas/liyasthomas.github.io
+
 Hi. I'm a sofware engineer specialized in iOS and Swift development.
 
 In my 10 years of experience I have worked on different fields, the latest 5 at [GetYourGuide](https://apps.apple.com/us/app/getyourguide-travel-tickets/id705079381), where I have had the pleasure to work with amazing people and developed myself into a Staff Engineer.
