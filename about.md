@@ -7,8 +7,10 @@ header:
   image: /assets/banners/berlin_s_bahn.png
 ---
 
-# Acknowledgements: 
-# - The GitHub projects included are heavily inpired by the work of https://github.com/liyasthomas/liyasthomas.github.io
+<!---
+Acknowledgements: 
+The GitHub projects included are heavily inpired by the work of https://github.com/liyasthomas/liyasthomas.github.io
+-->
 
 Hi. I'm a sofware engineer specialized in iOS and Swift development.
 
