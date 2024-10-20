@@ -1,0 +1,188 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/// custom styles for GitHub cards ///
+// @import 'highlight-syntax';
+
+// If a user adds a custom font, this component will stop it from bleeding into GitHub components:
+.github-component {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+}
+.repo-language-color {
+    filter: brightness(115%) !important;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    width: 12px;
+}
+.min-height-full {
+  min-height: 20vh;
+}
+.mx-auto {
+    margin-right:auto !important;
+    margin-left:auto !important
+}
+.flex-justify-between {
+    justify-content:space-between !important
+}
+.d-flex {
+    display:flex !important
+}
+.flex-items-start {
+    align-items:flex-start !important
+}
+.flex-column {
+    flex-direction:column !important
+}
+.height-full {
+    height:100% !important
+}
+.text-left {
+    text-align:left !important
+}
+.box-shadow {
+    box-shadow:0 1px 1px rgba(27,31,35,0.1) !important
+}
+.border{
+    border:1px #e1e4e8 solid !important
+}
+.border-gray-light {
+    border-color:#eaecef !important
+}
+.bg-white {
+    background-color:#fff !important
+}
+.rounded-1 {
+    border-radius:3px !important
+}
+.p-3 {
+    padding:16px !important
+}
+.mb-1 {
+    margin-bottom:4px !important
+}
+.f4 {
+    font-size:16px !important
+}
+.lh-condensed {
+    line-height:1.25 !important
+}
+.mr-1 {
+    margin-right:4px !important
+}
+.octicon {
+    vertical-align:text-bottom
+}
+.v-align-middle {
+    vertical-align:middle !important
+}
+.text-gray {
+    color:#586069 !important
+}
+.mb-2 {
+    margin-bottom:8px !important
+}
+.ws-normal {
+    white-space:normal !important
+}
+.f6 {
+    font-size:12px !important
+}
+.ml-0 {
+    margin-left:0 !important
+}
+.mr-1 {
+    margin-right:4px !important
+}
+.mr-3 {
+    margin-right:16px !important
+}
+.d-inline-block {
+    display:inline-block !important
+}
+.link-gray {
+    color:#586069 !important
+}
+.mr-4 {
+    margin-right:24px !important
+}
+.mb-3{
+    margin-bottom:16px !important
+}
+.mb-4 {
+    margin-bottom:24px !important
+}
+.flex-wrap {
+    flex-wrap:wrap !important
+}
+.gutter-condensed {
+    margin-right:-8px;
+    margin-left:-8px
+}
+.gutter-condensed>[class*="col-"] {
+    padding-right:8px !important;
+    padding-left:8px !important
+}
+.border-top {
+    border-top:1px #e1e4e8 solid !important
+}
+
+@media (min-width: 768px){
+    .d-md-flex{
+        display:flex !important
+    }
+}
+@media (min-width: 544px){
+    .d-sm-flex{
+        display:flex !important
+    }
+}
+@media (min-width: 544px){
+    .col-sm-6{
+        width:50%
+    }
+}
+@media (min-width: 768px){
+    .border-md-top {
+        border-top:1px #e1e4e8 solid !important
+    }
+    .border-md-top-0 {
+        border-top:0 !important
+    }
+}
+@media (min-width: 768px){
+    .col-md-1 {
+        width:8.33333%
+    }
+    .col-md-7{
+        width:58.33333%
+    }
+    .col-md-12{
+        width:100%
+    }
+}
+@media (min-width: 1012px){
+    .col-lg-6{
+        width:50%
+    }
+    .col-lg-8{
+        width:66.66667%
+    }
+}
+@media (min-width: 1280px){
+    .col-xl-4{
+        width:33.33333%
+    }
+    .col-xl-9{
+        width:75%
+    }
+}

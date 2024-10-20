@@ -1,6 +1,6 @@
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "contrast"
 
 # Site Settings
 locale: "en-US"
@@ -8,17 +8,18 @@ title: "Grab a ☕️ ..."
 title_separator: "-"
 name: "Felipe Marino"
 description: >-
-  A blog about Apple development and programming. Swift, Rust, server side, tips and tricks..
+  A blog about Apple development, Swift, server side, tips and tricks..
 url: "https://marinofelipe.github.io"
 atom_feed:
   path: "feed.xml"
 repository: marinofelipe/marinofelipe.github.io
+timezone: Europe/Berlin
 
 # Site Author
 author:
   name: "Felipe Marino"
   avatar: "/assets/avatars/me.png"
-  bio: "Here I write about Apple development, Swift, Xcode, server side. Ocassionaly Rust, Haskell."
+  bio: "Here I write about Apple development, Swift, Xcode, and programming in general."
   location: "Germany, Berlin"
   github: marinofelipe
   twitter: _marinofelipe
@@ -64,7 +65,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10
+paginate: 5
 paginate_path: /page:num/
 
 # Plugins (previously gems:)
@@ -75,6 +76,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
+  - jekyll-octicons
+  - jekyll-github-metadata
   - jemoji
 
 # mimic GitHub Pages with --safe
@@ -109,10 +112,12 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
-      read_time: false
+      read_time: true
       comments: false
-      share: false
+      share: true
       related: false
+      show_date: true
+      enable_copy_code_button: true
   # _pages
   - scope:
       path: ""
@@ -129,3 +134,14 @@ analytics:
   google:
     tracking_id: "UA-165961290-1"
     anonymize_ip: true
+
+# GitHub Projects
+projects:
+  sort_by: stars
+  sort_by options:
+    - stars
+  limit: 6
+  exclude:
+    archived: true
+    projects:
+    # - repo-name
