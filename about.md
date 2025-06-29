@@ -34,12 +34,14 @@ I do appreciate and contribute to the Open Source landscape, where besides contr
 
 ## Presentations
 
-[CocoaHeadsSP](https://x.com/CocoaHeadsBr) | GraphQL na Prática | May 20, 2019
-
-{% include video id="z1nvPYufmyQ" provider="youtube" %}
+[Domain Driven Design Europe 2025](https://2025.dddeurope.com/) | [Seeing is Scaling](https://2025.dddeurope.com/program/seeing-is-scaling-visualizing-and-managing-dependency-graphs-in-modular-apps/) | Jun 4, 2025
 
 [CocoaHeads Berlin](https://x.com/cocoaheads_BER) | Modularity, Scalability and Swift Package Manager | Jun 27, 2022
 
 {% include video id="QtPCCsHCzfY" provider="youtube" %}
+
+[CocoaHeadsSP](https://x.com/CocoaHeadsBr) | GraphQL na Prática | May 20, 2019
+
+{% include video id="z1nvPYufmyQ" provider="youtube" %}
 
 *[CMS]: Content Management System

@@ -19,10 +19,14 @@ timezone: Europe/Berlin
 author:
   name: "Felipe Marino"
   avatar: "/assets/avatars/me.png"
-  bio: "Here I write about Apple development, Swift, Xcode, and programming in general."
+  bio: "iOS development, Swift, Xcode, and software engineering in general."
   location: "Germany, Berlin"
   github: marinofelipe
   twitter: _marinofelipe
+  links:
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/marinofelipe.bsky.social"
 
 # Reading Files
 exclude:
